@@ -1,45 +1,47 @@
+% CS 312 Project 1
+
 % DATABASE
 
 % restaurant(id, name, cuisine, location, price, rating)
 
 restaurant(bento_sushi).
-restaurant(brown's_socialhouse).
-restaurant(domino's_pizza).
 restaurant(flip_side).
 restaurant(grand_noodle_emporium).
 restaurant(honour_roll).
-restaurant(ideas).
 restaurant(ike's_cafe).
-restaurant(the_loop).
-restaurant(mahony_&_son's).
+restaurant(loop_cafe).
 restaurant(mercante).
-restaurant(open_kitchen).
-restaurant(pacific_poke).
-restaurant(palate).
-restaurant(perugia).
-restaurant(pie_r_squared).
 restaurant(the_point_grill).
-restaurant(sage).
 restaurant(triple_o).
-restaurant(vera's).
 
-american(brown's_socialhouse).
-american(domino's_pizza).
 american(flip_side).
-american(ideas).
-american(mahony_&_son's).
-
-american(pie_r_squared).
 american(the_point_grill).
-american(sage).
 american(triple_o).
-american(vera's).
 cafe(ike's_cafe).
-cafe(the_loop).
+cafe(loop_cafe).
 chinese(grand_noodle_emporium).
-hawaiian(pacific_poke).
 italian(mercante).
-italian(perugia).
 japanese(bento_sushi).
 japanese(honour_roll).
-vegetarian(palate).
+
+location(david_lam_research_centre).
+location(the_nest).
+location(irving).
+location(cirs).
+location(ponderosa).
+location(marine_residence).
+
+in(bento_sushi, david_lam_research_centre).
+in(flip_side, the_nest).
+in(grand_noodle_emporium, the_nest).
+in(honour_roll, the_nest).
+in(ike's_cafe, irving).
+in(loop_cafe, cirs).
+in(mercante, ponderosa).
+in(the_point_grill, marine_residence).
+in(triple_o, david_lam_research_centre).
+
+expensive(the_point_grill).
+cheap(ike'scafe).
+cheap(loop_cafe).
+cheap(triple_o).
